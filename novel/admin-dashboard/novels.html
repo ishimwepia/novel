@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>admin dashboard</title>
+    <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+        <!-- header -->
+    <header class="header">
+        <div class="container header-container">
+            <h1 class="header-title">E-novel Admin Dashboard</h1>
+            <div class="user-info">
+                <span class="user-role">Admin User</span>
+                <div class="user-avatar">A</div>
+            </div>
+        </div>
+    </header>
+
+        <!-- navigation -->
+    <div class="container"> 
+        <nav class="navbar">
+            <div class="navmenu">
+                <a href="admin.html" class="nav-link">Overview</a>
+                <a href="#" class="nav-link active">Novels</a>
+                <a href="#" class="nav-link">Users</a>
+                <a href="#" class="nav-link">Reports</a>
+                <a href="#" class="nav-link">settting</a>
+            </div>
+        </nav>
+
+
+        <!-- novels content -->
+
+        <div class="novel-content">
+            <h2 class="section-title">Novels Management</h2>
+        
+            <div class="card">
+                <div class="card-header">
+                    <h3 class="card-title">All Novels</h3>
+                    <button class="btn">Add novel</button>
+                </div>
+           
+                <div class="card-body">
+                    <div class="filter">
+                        <input type="text" class="search-input" placeholder="Search novels...">
+                        <select class="filter-select">
+                            <option value="">All Status</option>
+                            <option value="published">Published</option>
+                            <option value="draft">Draft</option>
+                            <option value="review">Review</option>
+                        </select>
+                    </div>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                              <th>id</th>
+                              <th>Title</th>
+                              <th>Author</th>  
+                              <th>Genre</th>
+                              <th>Chapters</th>
+                              <th>Status</th>
+                              <th>Views</th>
+                              <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>forver mine</td>
+                                <td>joseph Miller</td>
+                                <td>Romance</td>
+                                <td>30</td>
+                                <td>Published</td>
+                                <td>2400</td>
+                                <td class="actions">
+                                    <button class="btn-action edit"><a href="#">Edit</a></button>
+                                    <button class="btn-action view"><a href="#">view</a></button>
+                                    <button class="btn-action delete"><a href="#">delete</a></button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
+
+        

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>admin dashboard</title>
+    <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+        <!-- header -->
+    <header class="header">
+        <div class="container header-container">
+            <h1 class="header-title">E-novel Admin Dashboard</h1>
+            <div class="user-info">
+                <div class="user-avatar">A</div>
+                <span class="user-role">Admin User</span>
+            </div>
+        </div>
+    </header>
+
+        <!-- navigation -->
+    <div class="container"> 
+        <nav class="navbar">
+            <div class="navmenu">
+                <a href="#" class="nav-link active">Overview</a>
+                <a href="novels.html" class="nav-link">Novels</a>
+                <a href="#" class="nav-link">Users</a>
+                <a href="#" class="nav-link">Reports</a>
+                <a href="#" class="nav-link">settting</a>
+            </div>
+        </nav>
+
+            <!-- overview and status -->
+        <div class="overview">
+            <h2 class="view-title">Dashboard Overview</h2>
+
+            <div class="stat-grid">
+                <div class="stat-card">
+                    <p class="stat-label">Total novels</p>
+                    <p class="stat-value">200</p>
+                </div>
+
+                <div class="stat-card">
+                    <p class="stat-label">Total Users</p>
+                    <p class="stat-value">1200</p>
+                </div>
+            
+                <div class="stat-card">
+                    <p class="stat-label">Total Views</p>
+                    <p class="stat-value">24000</p>
+                </div>
+                <div class="stat-card">
+                    <p class="stat-label">Total Views</p>
+                    <p class="stat-value">24000</p>
+                </div>
+            </div>
+    
+        
+            <!-- recent content -->
+        <div class="recent-content">
+            <!-- recent novels -->
+            <div class="card">
+                <div class="card-header">
+                    <h3 class="card-title">Recent Novels</h3>
+                    <a href="#" class="view-all">View all</a>
+                </div>
+                <div class="card-body">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Title</th>
+                                <th>Author</th>
+                                <th>Status</th>
+                                <th>Views</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Haunted</td>
+                                <td>Joseph Miller</td>
+                                <td><span class="status-badge published">Published</span></td>
+                                <td>1000</td>
+                            </tr>
+                            <tr>
+                                <td>Haunted masion</td>
+                                <td>Karen Muhoza</td>
+                                <td><span class="status-badge draft">draft</span></td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <td>Beyond me</td>
+                                <td>Rutambuka John</td>
+                                <td><span class="status-badge published">Published</span></td>
+                                <td>1200</td>
+                            </tr>
+                            <tr>
+                                <td>Far away</td>
+                                <td>Skyler Natalie</td>
+                                <td><span class="status-badge review">Review</span></td>
+                                <td>1000</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+                <!-- recent users -->
+            <div class="card">
+                <div class="card-header">
+                    <h3 class="card-title">Recent users</h3>
+                    <a href="#" class="view-all">View all</a>
+                </div>
+                <div class="card-body">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Username</th>
+                                <th>Email</th>
+                                <th>Join date</th>
+                                <th>Type</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>piasdk</td>
+                                <td>piasdk6@gmail.com</td>
+                                <td>2025-03-27</td>
+                                <td><span class="user-badge reader">Reader</span></td>
+                            </tr>
+                            <tr>
+                                <td>piasdk</td>
+                                <td>piasdk6@gmail.com</td>
+                                <td>2025-03-27</td>
+                                <td><span class="user-badge author">author</span></td>
+                            </tr>
+                            <tr>
+                                <td>piasdk</td>
+                                <td>piasdk6@gmail.com</td>
+                                <td>2025-03-27</td>
+                                <td><span class="user-badge author">author</span></td>
+                            </tr>
+                            <tr>
+                                <td>piasdk</td>
+                                <td>piasdk6@gmail.com</td>
+                                <td>2025-03-27</td>
+                                <td><span class="user-badge reader">Reader</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div> 
+    </div>
+</body>
+</html>

@@ -1,0 +1,118 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+
+/* Sidebar styles */
+.sidebar {
+    width: 200px;
+    height: 100vh;
+    background-color: white;
+    position: fixed;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff4081;
+    margin-bottom: 40px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-bottom: 1px solid rgba(240, 10, 110, 0.933);
+
+}
+
+.navbar {
+    width: 100%;
+    list-style: none;
+}
+
+.navmenu {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.navmenu a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 12px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    font-weight: 300;
+}
+
+.navmenu a:hover {
+    color: #ff4081;
+    transform: translateX(10px);
+}
+
+
+
+form {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid rgb(247, 45, 89);
+    border-radius: 16px;
+    margin-top: 50px;
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+input, textarea, select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
+textarea {
+    height: 100px;
+
+}
+button {
+    padding: 12px 24px;
+    font-size: 18px;
+    background: rgb(247, 45, 89);
+    color: white;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: all 0.3s;
+    font-weight: bold;
+}
+button:hover {
+    background: rgb(247, 45, 89);
+    transform: translateY(-2px);
+}
+.image {
+    max-width: 150px;
+    max-height: 200px;
+    margin: 10px auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: none;
+}
+h2 {
+    color: rgb(247, 45, 89);
+    margin-bottom: 30px;
+}

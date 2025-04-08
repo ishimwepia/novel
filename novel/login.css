@@ -1,0 +1,111 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f5f5f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-container {
+  width: 100%;
+  max-width: 450px;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  background-color:rgb(3, 91, 11);
+  color: white;
+  padding: 24px;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.header p {
+  font-size: 16px;
+  
+}
+
+.content {
+  padding: 20px;
+}
+
+.content h2 {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 24px;
+  color: #333;
+}
+
+.role-options {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+
+.role-option {
+  flex: 1;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 24px 16px;
+  text-align: center;
+  cursor: pointer;
+  transition: border-color 0.2s;
+}
+
+.role-option:hover {
+  border-color: #29ff5b;
+  background-color: #f5f9ff;
+}
+
+.icon-container {
+  background-color: #e8f0fe;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px auto 16px;
+}
+
+.custom-icon {
+  font-size: 30px;
+    color: #06a72b;
+}
+
+
+.role-name {
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.role-name a {
+  color: #1b6d0c;
+  text-decoration: none;
+}
+
+.role-name a:hover {
+  text-decoration: underline;
+}
+
+.role-description {
+  font-size: 17px;
+  color: #666;
+}
